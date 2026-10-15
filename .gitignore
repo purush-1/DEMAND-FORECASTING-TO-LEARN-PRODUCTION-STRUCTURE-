@@ -1,0 +1,34 @@
+#python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+#virtual environments
+
+.venv/
+venv/
+
+#Envirrionments
+.env
+.env.*
+
+# Testing and cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+#logs
+*.log
+
+#Docker image archives
+*.tar
+
+#datasets 
+data/
+
+#models
+
+models/
+
+
