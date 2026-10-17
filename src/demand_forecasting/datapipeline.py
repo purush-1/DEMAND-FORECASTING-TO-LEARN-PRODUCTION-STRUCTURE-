@@ -7,7 +7,7 @@ def time_features(df):
 
     df['Month'] = df['Date'].dt.month
     df['Year'] = df['Date'].dt.year
-    df['Quarter'] = df['Date'].dt.year
+    df['Quarter'] = df['Date'].dt.quarter
     df['Dayofweek'] = df['Date'].dt.dayofweek
     df['Dayofyear'] = df['Date'].dt.dayofyear
     return df
